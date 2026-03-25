@@ -108,7 +108,7 @@ function buildPrompt(
   // Response instructions
   if (mode === 'brief') {
     lines.push(`## Your response`);
-    lines.push(`Write a single paragraph (4–6 sentences) that captures the quality of this moment as the texts reveal it${question ? ' in relation to the question' : ''}. Not a summary of the hexagram — an encounter with it. Let the Image be present. Draw on both Legge and Wilhelm without citing them. Speak as if the reading itself is already the counsel.`);
+    lines.push(`Write one or two paragraphs that capture the quality of this moment as the texts reveal it${question ? ' in relation to the question' : ''}. Not a summary of the hexagram — an encounter with it. Let the Image be present. Draw on both Legge and Wilhelm without citing them. Speak as if the reading itself is already the counsel.`);
   } else {
     lines.push(`## Your response`);
     lines.push(`Provide a structured interpretation with the following sections:`);
@@ -141,7 +141,7 @@ function buildPrompt(
 async function callClaude(prompt: string, mode: ResponseMode): Promise<string> {
   const response = await anthropic.messages.create({
     model: 'claude-sonnet-4-6',
-    max_tokens: mode === 'brief' ? 300 : 1200,
+    max_tokens: mode === 'brief' ? 700 : 1200,
     messages: [{ role: 'user', content: prompt }],
   });
   const block = response.content[0];
@@ -151,7 +151,7 @@ async function callClaude(prompt: string, mode: ResponseMode): Promise<string> {
 async function callGPT4(prompt: string, mode: ResponseMode): Promise<string> {
   const response = await openai.chat.completions.create({
     model: 'gpt-4o',
-    max_tokens: mode === 'brief' ? 300 : 1200,
+    max_tokens: mode === 'brief' ? 700 : 1200,
     messages: [{ role: 'user', content: prompt }],
   });
   return response.choices[0].message.content ?? '';

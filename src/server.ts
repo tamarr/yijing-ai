@@ -37,7 +37,8 @@ const HTML = `<!DOCTYPE html>
     border-radius: 3px;
   }
   input[type="number"]:focus { outline: none; border-color: #b09888; box-shadow: 0 0 0 3px #e8ddd5; }
-  .hex-row { display: flex; align-items: flex-end; gap: 32px; flex-wrap: wrap; }
+  .hex-row { display: grid; grid-template-columns: auto 1fr; column-gap: 32px; row-gap: 6px; align-items: center; }
+  .hex-row > label { align-self: start; }
   .lines-group { display: flex; gap: 16px; flex-wrap: wrap; margin-top: 4px; }
   .line-check { display: flex; align-items: center; gap: 6px; cursor: pointer; }
   .line-check input[type="checkbox"] { width: 15px; height: 15px; accent-color: #9b7e6a; cursor: pointer; }
@@ -101,15 +102,11 @@ const HTML = `<!DOCTYPE html>
       <textarea id="question" name="question" placeholder="What is present in this moment…"></textarea>
     </div>
     <div class="field hex-row">
-      <div>
-        <label for="hexNum">Hexagram</label>
-        <input type="number" id="hexNum" name="hexNum" min="1" max="64" placeholder="1–64" required>
-      </div>
-      <div>
-        <label>Moving lines</label>
-        <div class="lines-group">
-          ${[1,2,3,4,5,6].map(n => `<label class="line-check"><input type="checkbox" name="line" value="${n}"><span>${n}</span></label>`).join('')}
-        </div>
+      <label for="hexNum">Hexagram</label>
+      <label>Moving lines</label>
+      <input type="number" id="hexNum" name="hexNum" min="1" max="64" placeholder="1–64" required>
+      <div class="lines-group">
+        ${[1,2,3,4,5,6].map(n => `<label class="line-check"><input type="checkbox" name="line" value="${n}"><span>${n}</span></label>`).join('')}
       </div>
     </div>
     <button type="submit" id="submitBtn">Interpret</button>
