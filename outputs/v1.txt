@@ -1,0 +1,224 @@
+The very first output - deterministic text directly related to the hexagrams and moving lines, from both sources.
+
+Brief:
+tamarrucham@tamars-mbp yijingai % npx tsx src/read.ts 42 3,6 --debug --question longevitix
+(node:59373) ExperimentalWarning: CommonJS module /opt/homebrew/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /opt/homebrew/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Hexagram 42, moving lines: 3, 6
+Mode: brief | Question: "longevitix"
+Fetching context and generating interpretations...
+
+Primary:   ䷩ 益 (yì) — Hexagram 42
+Resulting: ䷾ 既濟 (jì jì) — Hexagram 63
+
+════════════════════════════════════════════════════════════
+PROMPT SENT TO LLMs
+════════════════════════════════════════════════════════════
+You are an expert in the Yi Jing (I Ching). Your interpretation must be grounded exclusively in the traditional texts provided below.
+IMPORTANT: Do not introduce hexagram meanings, line interpretations, trigram attributes, or any other Yi Jing content from your training data. Every claim must be traceable to the texts given. If the provided texts do not speak to something, do not speculate.
+
+## Hexagram 42 — ䷩ 益 (yì)
+
+### Legge: Yi
+**Judgment:** Yi indicates that (in the state which it denotes) there will be advantage in every movement which shall be undertaken, that it will be advantageous (even) to cross the great stream.
+**Image:** (The trigram representing) wind and that for thunder form Yl. The superior man, in accordance with this, when he sees what is good, moves towards it ; and when he sees his errors, he turns from them.
+**Moving lines:**
+- Line 3: 3. The third line, divided, shows increase given to its subject by means of what is evil, so that he shall (be led to good), and be without blame. Let him be sincere and pursue the path of the Mean, (so shall he secure the recognition of the ruler, like) an officer who announces himself to his prince by the symbol of his rank.
+- Line 6: 6. In the sixth line, undivided, we see one to whose increase none will contribute, while many will seek to assail him. He observes no regular rule in the ordering of his heart. There will be evil. XLII. Yi has the opposite meaning to Sun, and is the symbol of addition or increasing. What king Wan had in his mind, in connexion with the hexagram, was a ruler or a government operating SECT. II. THE KWAI HEXAGRAM. I 5 I
+
+### Wilhelm: Increasing
+**Judgment:** INCREASE. It furthers one
+
+To undertake something.
+It furthers one to cross the great water.
+**Image:** Wind and thunder: the image of INCREASE.
+
+Thus the superior man:
+If he sees good, he imitates it;
+If he has faults, he rids himself of them.
+**Moving lines:**
+- Line 3: One is enriched through unfortunate events.
+- Line 6: He brings increase to no one.
+Indeed, someone even strikes him.
+He does not keep his heart constantly steady.
+Misfortune.
+
+**Moving lines in this reading:** 3, 6
+
+## Resulting Hexagram — 63: ䷾ 既濟 (jì jì)
+
+### Legge: Ki 3i
+**Judgment:** K\ 3 1 intimates progress and success in small matters. There will be advantage in being firm had in his mind our distinction of essentials and non-essentials. Is it ever good to deviate from what is recognised as the established course of procedure? The reply is — never in the matter of right ; but in what is conventional and ceremonial — in what is nonessential— the deviation may be made, and will be productive of good. The form may be given up, but not the substance. But the thing must be done very carefully, — humbly and reverently, and in small matters. The symbolism of the bird is rather obscure. The whole of it is intended to teach humility. It is better for the bird to descend, keeping near to where it can perch and rest, than to hold on ascending into the homeless regions of the air. Line i is weak, in an odd place, and possessed by the ' idea of exceeding,' which belongs to the hexagram. Its correlate is the strong 4, belonging to the trigram A'an, the attribute of which is movement. There is nothing to repress the tendency of i ; rather it is stimulated ; and hence the symbolism. The subject of line 3 is too confident in his own strength, and too defiant of the weak and small enemies that seek his hurt. and correct. There has been good fortune in the beginning ; there may be disorder in the end.
+**Image:** (The trigram representing) fire and that for water above it form K\ 3i. The superior man, in accordance with this, thinks of evil (that may come), and beforehand guards against it.
+
+### Wilhelm: Already Fulfilled
+**Judgment:** AFTER COMPLETION. Success in small matters.
+Perseverance furthers.
+At the beginning good fortune.
+At the end disorder.
+**Image:** Water over fire: the image of the condition
+In AFTER COMPLETION.
+
+Thus the superior man
+
+Takes thought of misfortune
+And arms himself against it in advance.
+
+## The querent's question
+longevitix
+
+## Your response
+Write a single synthesized paragraph (4–6 sentences) interpreting this hexagram and its moving lines in relation to the question. Draw on both Legge and Wilhelm without citing them explicitly. Speak directly to the situation.
+════════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────
+CLAUDE-OPUS-4-6
+────────────────────────────────────────────────────────────
+The hexagram of Increase speaks to a time of beneficial growth and forward movement — a favorable moment to undertake endeavors, even ambitious ones likened to crossing a great stream. However, the third line reveals that this increase comes through unfortunate or difficult events; hardship itself becomes the vehicle for enrichment, provided you remain sincere and hold to a balanced, middle path. The sixth line offers a stern warning: one who fails to keep the heart constantly steady, who does not contribute increase to others, invites opposition and misfortune — no one will support such a person, and some may even strike against them. Together, these moving lines suggest that your path toward longevity and sustained well-being passes through adversity that must be met with sincerity and inner balance, while cautioning that selfishness or erratic discipline will undo any gains. The resulting hexagram, After Completion, confirms that initial success in these matters is attainable, but warns that good fortune at the beginning can give way to disorder at the end if vigilance lapses. Therefore, think of potential misfortune in advance and guard against it: maintain steady, consistent care of yourself, stay on the middle path, and do not assume that early progress guarantees lasting results.
+
+────────────────────────────────────────────────────────────
+GPT-4O
+────────────────────────────────────────────────────────────
+In addressing the querent's question regarding "longevitix," Hexagram 42, Yi (Increase), highlights a promising opportunity for growth and success through active efforts and necessary transformations. It emphasizes moving towards what is beneficial and addressing errors along the way. Line 3 suggests that even misfortunes can ultimately lead to enrichment if approached sincerely and with adherence to a balanced path, while Line 6 warns of potential adversity stemming from inconsistency and lack of clear order in one's intentions. The resultant Hexagram 63, Ji Ji (After Completion), underscores cautious optimism, where success can be found in small matters if one remains vigilant and prepared for potential disruptions. Overall, the guidance suggests that while the undertaking with longevitix holds promise, it requires careful planning, a commitment to self-improvement, and alertness to challenges that may arise along the journey.
+
+
+Deep:
+
+tamarrucham@tamars-mbp yijingai % npx tsx src/read.ts 42 3,6 --deep --question longevitix
+(node:59411) ExperimentalWarning: CommonJS module /opt/homebrew/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /opt/homebrew/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Hexagram 42, moving lines: 3, 6
+Mode: deep | Question: "longevitix"
+Fetching context and generating interpretations...
+
+Primary:   ䷩ 益 (yì) — Hexagram 42
+Resulting: ䷾ 既濟 (jì jì) — Hexagram 63
+
+────────────────────────────────────────────────────────────
+CLAUDE-OPUS-4-6
+────────────────────────────────────────────────────────────
+# Hexagram 42 — 益 (Increase) → Hexagram 63 — 既濟 (After Completion)
+
+## The Question: Longevity
+
+---
+
+## The Hexagram
+
+Increase describes a state where benefit and gain are actively flowing. The movement is favorable — there is advantage in every undertaking, even bold ones like "crossing the great stream." Wind above, thunder below: a dynamic combination of arousal and penetration, movement given direction. This is a moment where conditions support growth, where something is being added to your situation. The energy is generous and expansive.
+
+In the context of longevity, this hexagram speaks to a time when the conditions for sustaining and enriching life are present. There is real increase available.
+
+---
+
+## The Image
+
+Wind and thunder together form Increase. The instruction is precise and practical: **when you see what is good, move toward it; when you see your errors, turn away from them.** This is not abstract self-improvement — it is the active mechanism of increase itself. Longevity is served by this discipline: imitate what works, eliminate what harms. The Image suggests that increase in life-force is not passive; it requires ongoing responsiveness and self-correction.
+
+---
+
+## Moving Lines
+
+### Line 3 (Six in the third place)
+
+*One is enriched through unfortunate events. No blame — if one is sincere and follows the middle way.*
+
+This line tells you that increase comes through difficulty, even through what seems harmful or "evil." Setbacks, illness, misfortune — these become the means by which you are led toward what is actually good. The condition is sincerity and adherence to the path of the Mean: no extremes, no self-deception. The image of an officer presenting his credentials suggests that when you walk through difficulty with integrity, you earn a kind of recognition or standing — your character becomes credible. For longevity, this says plainly: hardship is not the enemy of a long life. Handled with honesty and balance, it becomes a teacher that strengthens you. Do not avoid difficulty — metabolize it.
+
+### Line 6 (Nine in the top place)
+
+*No one contributes to his increase. Indeed, someone strikes him. His heart is not kept constantly steady. Misfortune.*
+
+This is a stark warning. At the extreme of the hexagram, the one who receives no increase — and is even attacked — is the one whose inner state is unstable and inconsistent. The heart is not kept steady. This is the collapse of the conditions that made increase possible. For longevity, this line points to a specific danger: **inconstancy of heart and purpose.** If you do not maintain inner equilibrium, no amount of external support will sustain you. Others will withdraw their aid; circumstances will turn hostile. The misfortune here is self-generated — it comes from failing to regulate what is within.
+
+---
+
+## The Resulting Hexagram — 63: 既濟 (After Completion)
+
+After Completion describes a moment where everything has reached its proper place — fire below water, each element in correct relation. Success is present, but specifically in small matters. Perseverance is needed. The critical teaching: **at the beginning, good fortune; at the end, disorder.**
+
+The Image instructs the superior person to think of misfortune in advance and guard against it. This is not pessimism — it is the awareness that completion carries within it the seed of decline.
+
+For longevity, this resulting hexagram is deeply relevant. It says: you may reach a state of fulfillment, of things being in order. But that very completion is fragile. The danger is not in failing to achieve — it is in what happens after achieving. Disorder creeps in at the end if vigilance is abandoned. The counsel is to attend to small things, stay correct, and never assume the work is done.
+
+---
+
+## Synthesis
+
+The reading moves from Increase — a time of active, available benefit — into After Completion, where things have come into order but face the threat of gradual decay. The two moving lines trace the arc: Line 3 says your difficulties are not obstacles to longevity but instruments of it, provided you stay sincere and balanced. Line 6 warns that inconstancy of heart undoes everything — it is the specific mechanism by which increase turns to loss. The resulting hexagram confirms that even when you have achieved balance and fullness, the real work becomes maintenance and foresight. Longevity is not won once; it is sustained through unceasing, quiet attention.
+
+---
+
+## Counsel
+
+- **Embrace hardship as medicine.** What is difficult refines you — do not flee from it, but meet it with sincerity and moderation. This is how real vitality is built.
+- **Stabilize your heart.** The single greatest threat to your longevity is inner inconstancy — wavering commitments, emotional turbulence, lack of steady purpose. This must be addressed directly.
+- **Do not rest on achievement.** When things feel complete and ordered, that is precisely when you must think ahead, guard against complacency, and tend to small matters.
+- **Imitate what is good. Discard what harms you.** This is not eventual advice — it is the daily practice that sustains increase over time.
+
+────────────────────────────────────────────────────────────
+GPT-4O
+────────────────────────────────────────────────────────────
+**The Hexagram** — Hexagram 42, Yi (Increase), describes a situation where growth and progress are achievable. This is a time when ventures are likely to be successful and crossing significant hurdles is not only possible but favored. The energy here is one of expansion and support, suggesting that initiatives undertaken at this time are likely to encounter favorable conditions.
+
+**The Image** — The image of wind and thunder emphasizes dynamism and responsiveness. The superior man in this context acts upon recognizing goodness, aligning himself with positive influences, and eliminating his own faults. This is a call for proactive engagement with the world, moving toward positive change and correcting errors.
+
+**Moving Lines** —
+- Line 3 indicates a paradoxical situation where increase comes through unfortunate events. To navigate this, sincerity and maintaining a balanced approach are crucial. It's akin to announcing one's presence steadfastly, gaining favor through the strength of character rather than circumstance.
+- Line 6 warns of isolation and being the target of adversities due to inconsistency in one's heart. The lack of contribution to others' increase and vulnerability to attack lead to a forecast of misfortune. Stability and orderly conduct are necessary to avert negative outcomes.
+
+**The Resulting Hexagram** — Hexagram 63, Ji Ji (After Completion), involves success in smaller undertakings. It suggests that while the initial phase will likely bring good fortune, there's a risk of disorder if vigilance is not maintained. The interaction here highlights the importance of careful, ongoing attention even after reaching an initial state of completion.
+
+**Synthesis** — The progression from Yi to Ji Ji reflects a journey from expansive growth to the necessity of cautious attentiveness. While the initial conditions support growth and achievement, sustaining these gains requires vigilance and the anticipation of potential pitfalls. The two hexagrams together emphasize the cycle of gaining and maintaining progress.
+
+**Counsel** — Seek out opportunities for growth and embrace them, but do so with a steady heart and clear intentions. Recognize the potential for positive outcomes even from adversity by staying true to your values and balancing actions. Once gains are achieved, remain vigilant to protect and sustain them, anticipating challenges before they arise. Focus on fostering order and consistency to ensure longevity and stability in your endeavors.
+
+With Commentary sent:
+npx tsx src/read.ts 42 3,6 --question longevitix
+(node:60642) ExperimentalWarning: CommonJS module /opt/homebrew/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /opt/homebrew/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Hexagram 42, moving lines: 3, 6
+Mode: brief | Question: "longevitix"
+Fetching context and generating interpretations...
+
+Primary:   ䷩ 益 (yì) — Hexagram 42
+Resulting: ䷾ 既濟 (jì jì) — Hexagram 63
+
+────────────────────────────────────────────────────────────
+CLAUDE-OPUS-4-6
+────────────────────────────────────────────────────────────
+The reading speaks to a time of genuine increase and benefit, yet with important cautions directly relevant to the pursuit of longevity. The third line suggests that even unfortunate events—setbacks, illness, or difficult circumstances—can become sources of enrichment and growth, provided you respond with sincerity and walk a middle path, neither overreacting nor neglecting what arises. Hardship, met with honesty and balance, can deepen your vitality and wisdom rather than diminish it. However, the sixth line carries a stark warning: if you focus only on accumulating for yourself and fail to share your increase with others, you will find yourself isolated, unsupported, and even under attack. A heart that is not kept constantly steady—that wavers between disciplines, or pursues longevity without a settled inner orientation and genuine relationships—invites misfortune. The transformation into "After Completion" suggests that while initial efforts toward health and long life may succeed, lasting results depend on vigilance against complacency and disorder; the superior person thinks ahead about what could go wrong and guards against it, understanding that the real foundation of enduring life is not just physical practice but sustained inner equilibrium and care for others.
+
+────────────────────────────────────────────────────────────
+GPT-4O
+────────────────────────────────────────────────────────────
+The reading suggests that the concept of longevity or enduring benefits requires active engagement and a willingness to seize opportunities for growth and improvement. The primary hexagram, associated with increase, encourages taking initiatives and embracing even difficult tasks, which can lead to positive outcomes and advancement. However, it also warns of potential pitfalls if you do not adhere to principled conduct or fail to maintain consistency in your efforts. The moving lines highlight contrasting scenarios: prosperity arising from adversities when managed sincerely and diligently, versus isolation and misfortune resulting from neglecting one's obligations or failing to maintain personal integrity. The resulting hexagram advises vigilance and preparation to sustain success over time, cautioning against complacency since initial achievements may degenerate if not nurtured. Thus, for longevitix, the focus should be on consistent action, thoughtful planning, and honesty to foster enduring success.
+
+Clearer question (much better answers):
+tamarrucham@tamars-mbp yijingai % npx tsx src/read.ts 42 3,6 --question "longevitix company job opportunity"
+(node:60677) ExperimentalWarning: CommonJS module /opt/homebrew/lib/node_modules/npm/node_modules/debug/src/node.js is loading ES Module /opt/homebrew/lib/node_modules/npm/node_modules/supports-color/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+Hexagram 42, moving lines: 3, 6
+Mode: brief | Question: "longevitix company job opportunity"
+Fetching context and generating interpretations...
+
+Primary:   ䷩ 益 (yì) — Hexagram 42
+Resulting: ䷾ 既濟 (jì jì) — Hexagram 63
+
+────────────────────────────────────────────────────────────
+CLAUDE-OPUS-4-6
+────────────────────────────────────────────────────────────
+This opportunity at Longevitix carries genuine potential for advancement and benefit — Hexagram 42 (Increase) signals a time when undertakings are favored and even difficult ventures can succeed. However, the third moving line suggests that the path to this benefit may come through circumstances that initially appear unfortunate or challenging; if you remain sincere, act with integrity, and hold to a balanced middle course, even setbacks will turn to your advantage and you will earn recognition and authority. The sixth line, though, sounds a serious caution: if this opportunity tempts you toward self-serving behavior — neglecting to contribute genuinely to others or failing to maintain a steady, grounded heart — you will find yourself isolated and even under attack. The counsel here is to establish solid relationships and compose yourself before making demands, for brusqueness and agitation will find no cooperation from others. The resulting hexagram, After Completion (63), confirms that initial success is very much possible, but warns that good beginnings can devolve into disorder if you grow complacent; perseverance in small, steady matters is what sustains the gain. In sum, take the opportunity with sincerity and a spirit of service, guard against inconsistency of character, and remain vigilant even after early progress — think ahead to what could go wrong and prepare for it in advance.
+
+────────────────────────────────────────────────────────────
+GPT-4O
+────────────────────────────────────────────────────────────
+The hexagram suggests that pursuing the job opportunity with Longevitix may be advantageous, promising growth and success through challenging endeavors. It encourages you to act with sincerity and to embrace both positive and negative feedback, using setbacks as stepping stones for self-improvement. The movement towards this new opportunity should be aligned with careful thought and an understanding of the proper time to act. However, it also warns of potential misalignment if personal integrity and clear intentions are not maintained; thus, it's crucial to establish clear, stable relationships and ensure your actions are dependable and straightforward. Success may come in smaller aspects initially, but a persistent and mindful approach can lead to meaningful achievements, as long as you guard against complacency and remain proactive in addressing potential challenges.
