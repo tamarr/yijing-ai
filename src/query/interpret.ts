@@ -108,7 +108,7 @@ function buildPrompt(
   // Response instructions
   if (mode === 'brief') {
     lines.push(`## Your response`);
-    lines.push(`Write one or two paragraphs that capture the quality of this moment as the texts reveal it${question ? ' in relation to the question' : ''}. Not a summary of the hexagram — an encounter with it. Let the Image be present. Draw on both Legge and Wilhelm without citing them. Speak as if the reading itself is already the counsel.`);
+    lines.push(`Write a single paragraph that captures the quality of this moment as the texts reveal it${question ? ' in relation to the question' : ''}. Not a summary of the hexagram — an encounter with it. Let the Image be present. Draw on both Legge and Wilhelm without citing them. Speak as if the reading itself is already the counsel.`);
   } else {
     lines.push(`## Your response`);
     lines.push(`Provide a structured interpretation with the following sections:`);
