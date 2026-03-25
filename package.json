@@ -2,7 +2,7 @@
   "name": "yijingai",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "db:migrate": "export $(grep -v '^#' .env | xargs) && psql $DATABASE_URL -f db/migrations/001_initial.sql",
@@ -16,11 +16,11 @@
   "devDependencies": {
     "@types/node": "^25.5.0",
     "@types/pg": "^8.18.0",
-    "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
+    "tsx": "^4.21.0",
     "dotenv": "^17.3.1",
     "node-fetch": "^3.3.2",
     "openai": "^6.29.0",
